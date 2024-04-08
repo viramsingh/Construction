@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Construction</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-bgimg{
+    background: url(images/bg-img/b.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .company-info {
+        padding: 3rem 7%;
+    }
+
+    .main-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .inner-info {
+        flex: 1 1 45rem;
+    }
+
+    .info-text h1 {
+        font-size: 40px;
+        color: var(--mainclr);
+    }
+
+    .info-text p {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        margin-bottom: 25px;
+    }
+
+    .info-text a {
+        padding: 1.5rem 4rem;
+        background: var(--mainclr);
+        color: var(--headerclr);
+        font-size: 1.5rem;
+        border-radius: 15px;
+    }
+
+    .info-text a:hover {
+        background: var(--headerclr);
+        color: white;
+    }
+
+    .inner-info img {
+        width: 80%;
+    }
+
+    .our-team {
+        background-color: #f5f5f5;
+        padding: 60px 0;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+    h2 span {
+        color: #00a8e0;
+    }
+
+    .team-member {
+        display: inline-block;
+        margin: 20px;
+    }
+
+    .team-member img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .team-member h3 {
+        font-size: 24px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        color: #555;
+    }
+
+    .team-member p {
+        font-size: 18px;
+        color: #888;
+    }
+
+    .team-member:hover img {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    /* Our Mission Section Styles */
+    .our-mission {
+        background-color: #f9f9f9;
+        padding: 60px 0;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+ .info-text p {
+        font-size: 18px;
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    /* Construction Images Section Styles */
+    .construction-images {
+        background-color: #fff;
+        padding: 60px 0;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+    h2 span {
+        color: #00a8e0;
+    }
+    .mission p{
+        font-size: 18px;
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    .image-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .image-gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .image-gallery img:hover {
+        transform: scale(1.05);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <a href="#" id="logo">Webuild</a>
+        <navbar class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact Us</a>
+          </navbar>
+        <div class="icon-header">
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <!-- <div id="search-bar" class="fas fa-search"></div> -->
+        </div>
+        <!-- <div class="search-form">
+            <input type="search" id="search-form" placeholder="search here">
+        </div> -->
+    </header>
+
+    <div class="about-bgimg">
+        <div class="inner-back-text">
+            <h1><span>Construction</span><br>About Us<br>
+        </div>
+    </div>
+
+    <main>
+      
+        <section>
+            <div class="company-info"> <!-- Changed class "welcome" to "company-info" -->
+                <div class="main-info"> <!-- Changed class "main-welcome" to "main-info" -->
+                    <div class="inner-info"> <!-- Changed class "inner-welcome" to "inner-info" -->
+                        <div class="info-text"> <!-- Changed class "welcome-text" to "info-text" -->
+                            <h1>About Us</h1>
+                            <p class="text">
+                                Webuild Construction was founded in 2005 with a vision to revolutionize the construction
+                                industry. Our team of dedicated professionals brings a wealth of experience in the
+                                field, allowing us to tackle complex projects with ease. We take pride in delivering
+                                projects on time and within budget, while never compromising on quality.
+                                As a socially responsible company, we are committed to sustainability and environmental
+                                conservation. We incorporate eco-friendly practices and use green building materials
+                                whenever possible to minimize our impact on the environment.
+                            </p>
+                            <!-- <a href="#" class="wel-btn">read more</a> -->
+                        </div>
+                    </div>
+                    <div class="inner-info"> <!-- Changed class "inner-welcome" to "inner-info" -->
+                        <img src="images/side images.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-team">
+            <div class="container">
+                <h2>Our <span>Team</span></h2>
+                <div class="team-member">
+                    <img src="images/about/team1.jpg" alt="Team Member 1">
+                    <h3>John Doe</h3>
+                    <p>Lead Architect</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/about/team2.jpg" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>Project Manager</p>
+                </div>
+
+                <div class="team-member">
+                    <img src="images/about/team3.jpg" alt="Team Member 3">
+                    <h3>Michael Johnson</h3>
+                    <p>Construction Supervisor</p>
+                </div>
+
+                <!-- Add another team member here -->
+                <div class="team-member">
+                    <img src="images/about/team4.jpg" alt="Team Member 4">
+                    <h3>Emily Williams</h3>
+                    <p>Civil Engineer</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="our-mission">
+            <div class="container mission">
+                <h2>Our <span>Mission</span></h2>
+                <p>
+                    At Construction Company, our mission is to deliver high-quality construction services to our clients
+                    and create sustainable, innovative solutions that exceed their expectations. We are committed to
+                    professionalism, integrity, and excellence in all aspects of our work.
+                </p>
+                <p>
+                    Our goal is to build strong, long-lasting relationships with our clients, partners, and suppliers
+                    based on trust and mutual respect. We aim to be the preferred construction company for all types of
+                    projects, from residential to commercial and industrial.
+                </p>
+            </div>
+        </section>
+
+        <section class="construction-images">
+            <div class="container">
+                <h2>Construction in <span> Action </span>  </h2>
+                <div class="image-gallery">
+                    <img src="images/about/action1.jpg" alt="Construction Image 1">
+                    <img src="images/about/action2.jpg" alt="Construction Image 2">
+                    <img src="images/about/action3.jpg" alt="Construction Image 3">
+                    <img src="images/about/action4.jpg" alt="Construction Image 4">
+                    <img src="images/about/action5.jpg" alt="Construction Image 5">
+                    <img src="images/about/action6.jpg" alt="Construction Image 6">
+                    <!-- Add more construction images as needed -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="custom-construction-footer">
+        <div class="custom-footer-container">
+            <div class="custom-footer-item">
+                <h3 class="custom-footer-heading">About Us</h3>
+                <div class="footer-text">
+                    <div class="footer-content">
+                        Welcome to XYZ Construction, a leading construction company dedicated to providing exceptional
+                        building solutions. With a focus on quality craftsmanship and customer satisfaction, we have
+                        successfully delivered a wide range of construction projects for our clients.
+                    </div>
+                </div>
+            </div>
+            <div class="custom-footer-item">
+                <h3 class="custom-footer-heading">Useful Links</h3>
+                <ul class="custom-footer-links-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="custom-footer-item">
+                <h3 class="custom-footer-heading">Our Services</h3>
+                <ul class="custom-footer-services-list">
+                    <li><a href="services.html">Residential Construction</a></li>
+                    <li><a href="services.html">Commercial Projects</a></li>
+                    <li><a href="services.html">Renovation Services</a></li>
+                    <li><a href="services.html">Interior Design</a></li>
+                    <li><a href="services.html">Landscaping</a></li>
+                </ul>
+            </div>
+            <div class="custom-footer-item">
+                <h3 class="custom-footer-heading">Follow Us</h3>
+                <div class="custom-social-media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="custom-footer-bottom">
+            <p>&copy; 2023 XYZ Construction. All rights reserved.</p>
+            <!-- <p>Address: 123 Main Street, City, Country</p> -->
+        </div>
+    </footer>
+    
+    
+      <!-- Rest of your code remains unchanged -->
+    
+      <script src="script.js"></script>
+    
+    </body>
+    </html>
+    

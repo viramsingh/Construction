@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+
+<style>
+
+
+.contact-bgimg{
+    background: url(images/bg-img/f.jpeg );
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative; 
+}
+main {
+  padding: 40px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact h2 span{
+   color: var(--mainclr);
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Contact form styles */
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact form div {
+  margin-bottom: 20px;
+}
+
+.contact form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form input[type="tel"],
+.contact form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact form textarea {
+  resize: vertical;
+}
+
+.contact form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact form button:hover {
+  background-color: #0056b3; /* Change the button hover color to your preference */
+}
+
+/* Contact information styles */
+.contact-info {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+</style>
+
+<body>
+    <header class="header">
+        <a href="#" id="logo">Webuild</a>
+        <navbar class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact Us</a>
+          </navbar>
+        <div class="icon-header">
+            <div id="menu-bar" class="fas fa-bars"></div>
+        </div>
+        
+    </header>
+
+    <div class="contact-bgimg">
+        <div class="inner-back-text">
+            <h1><span>Construction</span> Contact <br>
+        </div>
+    </div>
+
+  <main>
+    <section class="contact">
+      <div class="container">
+        <h2><span>Contact</span> Us</h2>
+        <p>We would love to hear from you. Please fill out the form below to get in touch with us.</p>
+
+        <!-- Contact form -->
+        <form action="submit_form.php" method="post">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+
+        <!-- Contact information -->
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+          <p><strong>Phone:</strong> (123) 456-7890</p>
+          <p><strong>Email:</strong> info@example.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="custom-construction-footer">
+    <div class="custom-footer-container">
+        <div class="custom-footer-item">
+            <h3 class="custom-footer-heading">About Us</h3>
+            <div class="footer-text">
+                <div class="footer-content">
+                    Welcome to XYZ Construction, a leading construction company dedicated to providing exceptional
+                    building solutions. With a focus on quality craftsmanship and customer satisfaction, we have
+                    successfully delivered a wide range of construction projects for our clients.
+                </div>
+            </div>
+        </div>
+        <div class="custom-footer-item">
+            <h3 class="custom-footer-heading">Useful Links</h3>
+            <ul class="custom-footer-links-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="custom-footer-item">
+            <h3 class="custom-footer-heading">Our Services</h3>
+            <ul class="custom-footer-services-list">
+                <li><a href="services.html">Residential Construction</a></li>
+                <li><a href="services.html">Commercial Projects</a></li>
+                <li><a href="services.html">Renovation Services</a></li>
+                <li><a href="services.html">Interior Design</a></li>
+                <li><a href="services.html">Landscaping</a></li>
+            </ul>
+        </div>
+        <div class="custom-footer-item">
+            <h3 class="custom-footer-heading">Follow Us</h3>
+            <div class="custom-social-media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="custom-footer-bottom">
+        <p>&copy; 2023 XYZ Construction. All rights reserved.</p>
+        <!-- <p>Address: 123 Main Street, City, Country</p> -->
+    </div>
+</footer>
+
+
+  <!-- Rest of your code remains unchanged -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
